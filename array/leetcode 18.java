@@ -6,7 +6,7 @@ class Solution {
             return res;
         Arrays.sort(nums);
         for(int i=0;i<n-3;i++)
-        {
+        {   
             if(i > 0 && nums[i] == nums[i-1])
                 continue;
             for(int j=i+1;j<n-2;j++)
