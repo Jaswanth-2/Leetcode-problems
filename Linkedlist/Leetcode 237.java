@@ -20,6 +20,6 @@ All the values after node should be in the same order. */
 class Solution {
     public void deleteNode(ListNode node) {
         node.val=node.next.val;
-        node.next=node.next.next;
+        node.next=node.next.next; 
     }
 }
