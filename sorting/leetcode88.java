@@ -20,6 +20,6 @@ class Solution {
         }
         for(int z=0;z<res.length;z++){
             nums1[z]=res[z];
-        }
+        } 
     }
 }
