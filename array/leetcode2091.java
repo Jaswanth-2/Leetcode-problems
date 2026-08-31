@@ -9,7 +9,6 @@ class Solution {
             if (nums[i] < nums[minIndex]) {
                 minIndex = i;
             }
-
             if (nums[i] > nums[maxIndex]) {
                 maxIndex = i;
             }
